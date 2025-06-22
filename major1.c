@@ -18,7 +18,11 @@ int main() {
         printf("(4) Parity\n");
         printf("(5) EXIT\n");
         printf("--> ");
-        scanf("%d", &option);
+        if (scanf("%d", &option) != 1) {
+            // Flush invalid input & trigger default case
+            while (getchar() != '\n');
+            option = -1;
+        }
 
         switch(option) {
             case 1:
