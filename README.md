@@ -2,10 +2,10 @@
 ## Bitwise Operations
 
 ### Team Members:
-Pranav Dubey
-Mary Adeeko
-Luke Marlin
-Hema Thallapareddy
+- Pranav Dubey
+- Mary Adeeko
+- Luke Marlin
+- Hema Thallapareddy
 
 
 ### Project Organization:
