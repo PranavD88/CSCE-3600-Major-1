@@ -23,12 +23,12 @@ role(s) or expertise he/she served in.
 - `README.md`: This file. Describes project structure, team roles, known issues, and collaboration details (organized by Hema).
 
 
-| Name                | Role/Contribution                                                              |
-|---------------------|--------------------------------------------------------------------------------|
-| Hema Thallapareddy  | Implemented `parity.c` and relevent integration onto `major1.h` and `main()`   |
-| Pranav Dubey        | Implemented `endian.c` and relevent integration
-| Mary Adeeko         | Implemented `rotate.c` and relevent integration
-| Luke Marlin         | Implemented `clz.c` and relevent integration
+| Name                | Role/Contribution                                                                     |
+|---------------------|---------------------------------------------------------------------------------------|
+| Hema Thallapareddy  | Implemented `parity.c` and relevent integration onto `major1.h` and `main()`          |
+| Pranav Dubey        | Implemented `endian.c` and relevent integration. Created the makefile and templates   |
+| Mary Adeeko         | Implemented `rotate.c` and relevent integration                                       |
+| Luke Marlin         | Implemented `clz.c` and relevent integration                                          |
 
 
 
