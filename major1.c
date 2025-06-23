@@ -25,7 +25,6 @@ int main() {
         }
 
         switch(option) {
-            case 1:
                 case 1: {
                 uint32_t num;
                 printf("Enter an integer (1 to 4294967295): ");
