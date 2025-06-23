@@ -44,10 +44,10 @@ int main() {
                 // Placeholder for Rotate
                 break;
 
-            case 4: {  // Placeholder for Parity
+            case 4: {  // Parity
                 do {
                     printf("Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): ");
-                    scanf("%u", &input):
+                    scanf("%u", &input);
                         } while (input < 1 || input > 4294967295);
 
                 int result = partity(input);
