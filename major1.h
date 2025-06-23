@@ -10,6 +10,7 @@
 
 // Function Prototype
 unsigned int endian_swap(unsigned int value);
+int parity(unsigned int x);
 
 
 
