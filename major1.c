@@ -50,7 +50,7 @@ int main() {
                     scanf("%u", &input);
                         } while (input < 1 || input > 4294967295);
 
-                int result = partity(input);
+                int result = parity(input);
                 printf("Parity of %u is %d\n", input, result);
                 break;
             }
