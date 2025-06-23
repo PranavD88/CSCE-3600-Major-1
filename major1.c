@@ -42,8 +42,6 @@ int main() {
 
             case 3:
                 // Rotate
-                #include "major1.h"
-                
                 unsigned int rotate_right(unsigned int one, unsigned int two)
                 {
                     two &=31; //Limit the rotation between 0 and 31
