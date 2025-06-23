@@ -7,7 +7,7 @@
 
 int main() {
     int option;
-    unsigned int value, result;
+    unsigned int value, result, input;
 
     do {
         // Menu Option (Where the user chooses which operation to perform)
@@ -44,10 +44,16 @@ int main() {
                 // Placeholder for Rotate
                 break;
 
-            case 4:
-                // Placeholder for Parity
-                break;
+            case 4: {  // Placeholder for Parity
+                do {
+                    printf("Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): ");
+                    scanf("%u", &input):
+                        } while (input < 1 || input > 4294967295);
 
+                int result = partity(input);
+                printf("Parity of %u is %d\n", input, result);
+                break;
+            }
             case 5:
                 // Exits the program
                 printf("Program terminating. Goodbye...\n");
