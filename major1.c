@@ -42,10 +42,31 @@ int main() {
 
             case 3:
                 // Rotate
+                //Prompt user to enter integer
+                printf("Enter 32-bit number (>= 1 and <= 4294967295, inclusively): ");
+
+                //Check integer to make sure it is in range
+                while (scanf("%u", &one) != 1 || one < 1 || one > 4294967295)
                 {
-                    two &=31; //Limit the rotation between 0 and 31
-                    return (one >> two) | (one << (32- two)); //Rotate to the right by 2
+                    printf("Invalid, please enter a valid number: ");
+                    while (getchar() != '\n');
                 }
+
+                //Prompt user for how many positions
+                printf("Enter number of positions for rotating right from 0 to 31: ");
+
+                //Check to make sure rotation number is in range
+                while (scanf("%u", &two) != 1 || two > 31)
+                {
+                    printf("Invalid, please enter a valid number from 0 to 31: ");
+                    while (getchar() != '\n');
+                }
+
+                //Call rotate right function
+                result = rotate_right(one, two);
+
+                //Rotation result
+                printf("%u rotated by %u postions gives: %u\n ", one, two, result);
                 break;
 
             case 4: {  // Parity
