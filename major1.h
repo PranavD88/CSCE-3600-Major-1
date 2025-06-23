@@ -7,6 +7,7 @@
 #define MAJOR1_H
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 
 // Function Prototype
 unsigned int endian_swap(unsigned int value);

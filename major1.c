@@ -4,6 +4,7 @@
 // Driver program that contains the menu interface
 
 #include "major1.h"
+#include <stdint.h>
 
 int main() {
     int option;
