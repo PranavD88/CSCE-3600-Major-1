@@ -11,6 +11,7 @@
 // Function Prototype
 unsigned int endian_swap(unsigned int value);
 int parity(unsigned int x);
+unsigned int rotate_right(unsigned int one, unsigned int two);
 
 
 
