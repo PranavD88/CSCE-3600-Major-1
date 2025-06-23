@@ -42,7 +42,6 @@ int main() {
 
             case 3:
                 // Rotate
-                unsigned int rotate_right(unsigned int one, unsigned int two)
                 {
                     two &=31; //Limit the rotation between 0 and 31
                     return (one >> two) | (one << (32- two)); //Rotate to the right by 2
