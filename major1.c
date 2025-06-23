@@ -26,7 +26,17 @@ int main() {
 
         switch(option) {
             case 1:
-                // Placeholder for clz
+                case 1: {
+                uint32_t num;
+                printf("Enter an integer (1 to 4294967295): ");
+                while (scanf("%u", &num) != 1 || num == 0) {
+                while (getchar() != '\n'); // clear invalid input
+                printf("Invalid input. Please enter a valid number (1 - 4294967295): ");
+                        }
+                    int result = count_leading_zeros(num);
+                    printf("Number of leading zeros: %d\n", result);
+                    break;
+                        }
                 break;
 
             case 2:
