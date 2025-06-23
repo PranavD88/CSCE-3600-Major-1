@@ -13,7 +13,8 @@ unsigned int endian_swap(unsigned int value);
 int parity(unsigned int x);
 unsigned int rotate_right(unsigned int one, unsigned int two);
 
-
+// clz function
+int count_leading_zeros(uint32_t num);
 
 
 #endif
