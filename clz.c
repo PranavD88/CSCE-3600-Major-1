@@ -1,3 +1,4 @@
+#include <stdint.h>
 #include "major1.h"
 
 int count_leading_zeros(uint32_t num) {
