@@ -8,6 +8,7 @@
 int main() {
     int option;
     unsigned int value, result, input;
+    unsigned int one, two
 
     do {
         // Menu Option (Where the user chooses which operation to perform)
