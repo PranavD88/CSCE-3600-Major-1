@@ -1,7 +1,7 @@
 //rotate.c
 //Mary Adeeko, mya0051, Group 3
 //CSCE 3600.001
-////Implements a function used to perform rotation operation using two integers passed through a function
+//Implements a way to perform rotation operation using two integers passed through a function
 
 #include "major1.h"
 
